@@ -1,11 +1,11 @@
 let a = naman;
 let null = "";
-for(let i=a.length;i=>0;i--){
+for(let i=a.length;i>=0;i--){
     null += a[i] 
-    if(a==null){
-console.log("palindrome")
 }
-else
-{
+
+if(null==a){
+console.log("palindrome")
+}else{
 console.log("Not palindrome")
 }
